@@ -1,0 +1,3 @@
+Copied S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\setup.exe to s:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\deploy
+Copied S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\SETUP.LST to s:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\deploy
+Copied S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\rraes_sfd.CAB to s:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\deploy

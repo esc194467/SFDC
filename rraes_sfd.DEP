@@ -1,0 +1,37 @@
+[Version]
+Version=1.5.0.0
+
+[rraes_sfd.exe <0009>]
+Dest=$(AppPath)
+Date=12/04/2001
+Time=10:15
+Version=1.5.0.0
+CABFilename=rraes_sfd.CAB
+CABINFFile=rraes_sfd.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=WDTLOG.OCX
+Uses8=MSMASK32.OCX
+Uses9=MSFLXGRD.OCX
+Uses10=EXCEL8.OLB
+Uses11=RICHTX32.OCX
+Uses12=mscomct2.ocx
+Uses13=MSCAL.OCX
+Uses14=sfdc.ini
+Uses15=SCRRUN.DLL
+
+[WDTLOG.OCX <0009>]
+Dest=$(WinSysPath)
+Date=20/04/1998
+Time=12:28
+Version=4.0.0.4
+
+[EXCEL8.OLB <0009>]
+Dest=$(WinSysPath)
+Date=01/08/1997
+Time=00:00
+Version=8.0.1.4307

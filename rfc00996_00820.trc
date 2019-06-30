@@ -1,0 +1,10 @@
+
+**** Trace file opened at 20081003 133714 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+
+------------------  character conversion impossible -----------
+CRITICAL WARNING--  PATH_TO_CODEPAGE not set !     
+CRITICAL WARNING--  File 11002022.CDP not found           
+------------------  character conversion impossible -----------
+
+======> Unable to convert from code page '2022' to code page '1100'.
+<* RfcReceive [9] : returns 3:RFC_SYS_EXCEPTION

@@ -1,0 +1,8 @@
+Line 13: Class SHDocVwCtl.WebBrowser of control WebBrowser1 was not a loaded control class.
+Line 19: The property name Object.Height in WebBrowser1 is invalid.
+Line 20: The property name Object.Width in WebBrowser1 is invalid.
+Line 22: The property name ViewMode in WebBrowser1 is invalid.
+Line 23: The property name AutoSizePercentage in WebBrowser1 is invalid.
+Line 24: The property name AutoArrange in WebBrowser1 is invalid.
+Line 25: The property name NoClientEdge in WebBrowser1 is invalid.
+Line 26: The property name AlignLeft in WebBrowser1 is invalid.

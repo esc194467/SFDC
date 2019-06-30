@@ -1,0 +1,3606 @@
+[Root]
+Most Recent Package=SFDC ver3.3.10 UK
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=s:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\deploy
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Dep File 1|Files Added]
+c:\windows\system\sfdc.ini=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\mscomct2.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\sfdc.ini=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Shop Floor Data
+
+[Package|Dep File 1|IconGroups]
+Group0=Shop Floor Data
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Shop Floor Data]
+Icon1=rraes_sfd.exe
+Title1=Shop Floor Data
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=rraes_sfd.CAB
+DepCabRun=rraes_sfd.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source
+ProjectFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source
+ServerSideCab=
+File1=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+scrrun.dll=C:\WINNT\system32\scrrun.dll
+
+[Package|Standard Setup Package 1|Files Released]
+scrrun.dll=
+sfdc.ini=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=
+C:\WINNT\system32\WDTLOG.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+C:\WINNT\system32\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system\scrrun.dll=
+c:\program files\common files\sap shared\system\wdtfuncs.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=$(WinSysPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\sfdc.ini=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\WDTLOG.OCX=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=No
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Shop Floor Data
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation
+ProjectFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source
+ServerSideCab=
+File1=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\setup.exe
+File2=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\Setup.Lst
+File3=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Installation\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Shop Floor Data
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Shop Floor Data]
+Icon1=rraes_sfd.exe
+Title1=Shop Floor Data
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 95|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\install_95
+
+[Package|Standard Setup Package 95|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 95|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 95|Files Found]
+scrrun.dll=C:\WINNT\system32\scrrun.dll
+
+[Package|Standard Setup Package 95|Files Released]
+scrrun.dll=
+sfdc.ini=
+
+[Package|Standard Setup Package 95|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=
+C:\WINNT\system32\WDTLOG.OCX=
+
+[Package|Standard Setup Package 95|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 95|Files Added]
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\sfdc.ini=
+
+[Package|Standard Setup Package 95|Files Removed]
+c:\windows\system\scrrun.dll=
+c:\program files\common files\sap shared\system\wdtfuncs.ocx=
+
+[Package|Standard Setup Package 95|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\rraes_sfd.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomct2.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\sfdc.ini=Yes
+
+[Package|Standard Setup Package 95|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 95|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 95|Install Locations]
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=$(WinSysPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\sfdc.ini=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\WDTLOG.OCX=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 95|Configure Shared Files]
+Applicable=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=No
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\rraes_sfd.exe=No
+
+[Package|Standard Setup Package 95|Distribution]
+Type=single
+Size=
+Title=Shop Floor Data
+
+[Package|Standard Setup Package 95|IconGroups]
+Group0=Shop Floor Data
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 95|Shop Floor Data]
+Icon1=rraes_sfd.exe
+Title1=Shop Floor Data
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 95|Package]
+PackageFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\install_95
+ProjectFolder=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source
+ServerSideCab=
+File1=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\install_95\setup.exe
+File2=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\install_95\Setup.Lst
+File3=S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\install_95\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2000|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=v:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod
+
+[Package|Standard Setup Package 2000|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2000|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2000|Files Found]
+scrrun.dll=C:\WINNT\system32\scrrun.dll
+WDTAOCX.OCX=C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX
+
+[Package|Standard Setup Package 2000|Files Released]
+scrrun.dll=
+sfdc.ini=
+
+[Package|Standard Setup Package 2000|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=
+C:\WINNT\system32\WDTLOG.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\Program Files\Common Files\SAP Shared\System\WDTAOCX.OCX=
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\SAP620\FrontEnd\SAPgui\mscomct2.ocx=
+C:\Program Files\SAP620\FrontEnd\SAPgui\richtx32.ocx=
+C:\Program Files\SAP620\FrontEnd\SAPgui\msflxgrd.ocx=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=
+
+[Package|Standard Setup Package 2000|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCAL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 2000|Files Added]
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=
+C:\WINNT\system32\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Source\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Installation\SAESL\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\UAT\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\UK\UAT\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\UK\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\HAESL\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.7\Source\HAESL\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.8\Source\HAESL\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\9_v3.0.9\Source\HAESL\PROD\sfdc.ini=
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 2000|Files Removed]
+c:\windows\system\scrrun.dll=
+c:\program files\common files\sap shared\system\wdtfuncs.ocx=
+
+[Package|Standard Setup Package 2000|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 2000|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2000|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2000|Install Locations]
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTLOG.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WDTFUNCS.OCX=$(WinSysPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\SAP Shared\System\wdtfuncs.ocx=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\sfdc.ini=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\WDTLOG.OCX=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\sfdc.ini=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Source\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Installation\SAESL\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\rraes_sfd.exe=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Program Files\Common Files\SAP Shared\System\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\UAT\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\UK\UAT\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\SAESL\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.7\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.7\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.8\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.8\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\9_v3.0.9\Source\rraes_sfd.exe=$(AppPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\9_v3.0.9\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\10_v3.1.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=$(AppPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\richtx32.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 2000|Configure Shared Files]
+Applicable=Yes
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\4_Build\VBsource V2.0\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\SAP46d\Source\rraes_sfd.exe=No
+C:\Program Files\Common Files\SAP Shared\System\wdtlog.OCX=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\5_v2.0\Source\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Source\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\6_v2.1\Source\sfdc.ini=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\rraes_sfd.exe=No
+C:\Program Files\Common Files\SAP Shared\System\WDTAOCX.OCX=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\7_v3.0\Source\HAESL\PROD\sfdc.ini=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.7\Source\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\8_v3.0.8\Source\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\9_v3.0.9\Source\rraes_sfd.exe=No
+S:\BPF\Project\RRAESARC\6TOBE\4a_VB_enhance\SFDC\10_v3.1.0\Source\rraes_sfd.exe=No
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 2000|Distribution]
+Type=single
+Size=
+Title=Shop Floor Data
+
+[Package|Standard Setup Package 2000|Package]
+PackageFolder=v:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source
+ServerSideCab=
+File1=v:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\setup.exe
+File2=v:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\Setup.Lst
+File3=v:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2000|IconGroups]
+Group0=Shop Floor Data
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2000|Shop Floor Data]
+Icon1=rraes_sfd.exe
+Title1=Shop Floor Data
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+WDTAOCX.OCX=C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\Package
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\Package\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\Package\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\Package\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+WDTAOCX.OCX=C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\WINNT\system32\FM20.DLL=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 3|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=No
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Installation\UK Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 4|Files Added]
+v:\ar&o\directory structure\b - it elements\a - system definition\22 - external applications\sfdc\10_v3.1.0\source\uk\prod\sfdc.ini=
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=$(AppPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\10_v3.1.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\HAESL Prod
+
+[Package|Standard Setup Package 5|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 5|Files Found]
+
+[Package|Standard Setup Package 5|Files Released]
+
+[Package|Standard Setup Package 5|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 5|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 5|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\HAESL\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 5|Files Removed]
+
+[Package|Standard Setup Package 5|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\HAESL\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 5|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 5|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 5|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 5|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 5|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 5|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 5|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\HAESL Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\HAESL Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\HAESL Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\HAESL Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod
+
+[Package|Standard Setup Package 6|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 6|Files Found]
+
+[Package|Standard Setup Package 6|Files Released]
+
+[Package|Standard Setup Package 6|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 6|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 6|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 6|Files Removed]
+
+[Package|Standard Setup Package 6|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 6|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 6|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 6|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 6|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 6|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 6|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 6|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\UK Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 7|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\SAESL Prod
+
+[Package|Standard Setup Package 7|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 7|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 7|Files Found]
+
+[Package|Standard Setup Package 7|Files Released]
+
+[Package|Standard Setup Package 7|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 7|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 7|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\SAESL\PROD\sfdc.ini=
+
+[Package|Standard Setup Package 7|Files Removed]
+
+[Package|Standard Setup Package 7|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\SAESL\PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 7|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 7|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 7|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\SAESL\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 7|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 7|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 7|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 7|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 7|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\SAESL Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\SAESL Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\SAESL Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\SAESL Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 8|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\RRD WTS
+
+[Package|Standard Setup Package 8|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 8|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 8|Files Found]
+
+[Package|Standard Setup Package 8|Files Released]
+
+[Package|Standard Setup Package 8|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 8|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 8|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\sfdc.ini=
+
+[Package|Standard Setup Package 8|Files Removed]
+
+[Package|Standard Setup Package 8|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\sfdc.ini=Yes
+
+[Package|Standard Setup Package 8|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 8|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 8|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=$(AppPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=$(AppPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 8|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=No
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=No
+
+[Package|Standard Setup Package 8|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 8|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 8|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 8|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\RRD WTS
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\RRD WTS\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\RRD WTS\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\11_v3.1.1\Installation\RRD WTS\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|UK Prod|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\UK Prod
+
+[Package|UK Prod|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UK Prod|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UK Prod|Files Found]
+
+[Package|UK Prod|Files Released]
+
+[Package|UK Prod|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|UK Prod|Out-of-Date Dependency Information]
+
+[Package|UK Prod|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\PROD\sfdc.ini=
+
+[Package|UK Prod|Files Removed]
+
+[Package|UK Prod|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\PROD\sfdc.ini=Yes
+
+[Package|UK Prod|Configure Registry Files]
+Applicable=No
+
+[Package|UK Prod|Configure Remote Servers]
+Applicable=No
+
+[Package|UK Prod|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|UK Prod|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|UK Prod|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|UK Prod|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|UK Prod|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|UK Prod|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\UK Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\UK Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\UK Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\UK Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HAESL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\HAESL Prod
+
+[Package|HAESL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HAESL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HAESL|Files Found]
+
+[Package|HAESL|Files Released]
+
+[Package|HAESL|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|HAESL|Out-of-Date Dependency Information]
+
+[Package|HAESL|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\HAESL\PROD\sfdc.ini=
+
+[Package|HAESL|Files Removed]
+
+[Package|HAESL|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\HAESL\PROD\sfdc.ini=Yes
+
+[Package|HAESL|Configure Registry Files]
+Applicable=No
+
+[Package|HAESL|Configure Remote Servers]
+Applicable=No
+
+[Package|HAESL|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\HAESL\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|HAESL|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|HAESL|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|HAESL|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|HAESL|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HAESL|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\HAESL Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\HAESL Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\HAESL Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\HAESL Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SAESL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\SAESL Prod
+
+[Package|SAESL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SAESL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SAESL|Files Found]
+
+[Package|SAESL|Files Released]
+
+[Package|SAESL|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|SAESL|Out-of-Date Dependency Information]
+
+[Package|SAESL|Files Added]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\SAESL\PROD\sfdc.ini=
+
+[Package|SAESL|Files Removed]
+
+[Package|SAESL|Files In Project]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\SAESL\PROD\sfdc.ini=Yes
+
+[Package|SAESL|Configure Registry Files]
+Applicable=No
+
+[Package|SAESL|Configure Remote Servers]
+Applicable=No
+
+[Package|SAESL|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\SAESL\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|SAESL|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|SAESL|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|SAESL|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SAESL|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SAESL|Package]
+PackageFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\SAESL Prod
+ProjectFolder=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source
+ServerSideCab=
+File1=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\SAESL Prod\setup.exe
+File2=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\SAESL Prod\Setup.Lst
+File3=V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Installation\SAESL Prod\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|RRD|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\SFDC v3.1.2\Installation\RRD
+
+[Package|RRD|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RRD|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RRD|Files Found]
+sfdc.ini=E:\SFDC v3.1.2\Source\RRD\PROD\sfdc.ini
+
+[Package|RRD|Files Released]
+SFDC.46c.UK.P03.800.ini=
+SFDC.46c.UK.A03.800.ini=
+
+[Package|RRD|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|RRD|Out-of-Date Dependency Information]
+
+[Package|RRD|Files Added]
+sfdc.46c.uk.a03.800.ini=
+sfdc.46c.uk.p03.800.ini=
+sfdc.ini=
+
+[Package|RRD|Files Removed]
+
+[Package|RRD|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\SFDC v3.1.2\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+E:\SFDC v3.1.2\Source\RRD\PROD\sfdc.ini=Yes
+
+[Package|RRD|Configure Registry Files]
+Applicable=No
+
+[Package|RRD|Configure Remote Servers]
+Applicable=No
+
+[Package|RRD|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=$(AppPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=$(AppPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\RRD WTS PROD\sfdc.ini=$(WinSysPath)
+E:\SFDC v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\SFDC v3.1.2\Source\RRD\PROD\sfdc.ini=$(WinSysPath)
+
+[Package|RRD|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\RRD WTS PROD\SFDC.46c.UK.A03.800.ini=No
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\RRD WTS PROD\SFDC.46c.UK.P03.800.ini=No
+E:\SFDC v3.1.2\Source\rraes_sfd.exe=No
+
+[Package|RRD|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|RRD|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|RRD|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|RRD|Package]
+PackageFolder=E:\SFDC v3.1.2\Installation\RRD
+ProjectFolder=E:\SFDC v3.1.2\Source
+ServerSideCab=
+File1=E:\SFDC v3.1.2\Installation\RRD\setup.exe
+File2=E:\SFDC v3.1.2\Installation\RRD\Setup.Lst
+File3=E:\SFDC v3.1.2\Installation\RRD\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 9|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.1.3\Installation\RRC
+
+[Package|Standard Setup Package 9|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 9|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 9|Files Found]
+
+[Package|Standard Setup Package 9|Files Released]
+
+[Package|Standard Setup Package 9|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 9|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 9|Files Added]
+G:\SFDC v3.1.3\Source\RRC\sfdc.ini=
+
+[Package|Standard Setup Package 9|Files Removed]
+
+[Package|Standard Setup Package 9|Files In Project]
+G:\SFDC v3.1.3\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.1.3\Source\RRC\sfdc.ini=Yes
+
+[Package|Standard Setup Package 9|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 9|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 9|Install Locations]
+G:\SFDC v3.1.3\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.1.3\Source\RRC\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 9|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.1.3\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=No
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=No
+
+[Package|Standard Setup Package 9|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 9|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 9|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 9|Package]
+PackageFolder=G:\SFDC v3.1.3\Installation\RRC
+ProjectFolder=G:\SFDC v3.1.3\Source
+ServerSideCab=
+File1=G:\SFDC v3.1.3\Installation\RRC\setup.exe
+File2=G:\SFDC v3.1.3\Installation\RRC\Setup.Lst
+File3=G:\SFDC v3.1.3\Installation\RRC\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|UK Subs|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Installation\Subs
+
+[Package|UK Subs|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UK Subs|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UK Subs|Files Found]
+
+[Package|UK Subs|Files Released]
+sfdc.ini=
+
+[Package|UK Subs|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=
+
+[Package|UK Subs|Out-of-Date Dependency Information]
+
+[Package|UK Subs|Files Added]
+sfdc.ini=
+
+[Package|UK Subs|Files Removed]
+
+[Package|UK Subs|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+
+[Package|UK Subs|Configure Registry Files]
+Applicable=No
+
+[Package|UK Subs|Configure Remote Servers]
+Applicable=No
+
+[Package|UK Subs|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+
+[Package|UK Subs|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Source\rraes_sfd.exe=No
+
+[Package|UK Subs|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|UK Subs|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|UK Subs|SFDC]
+Icon1=rraes_sfd.exe
+Title1=Shop Floor Data Collection
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|UK Subs|Package]
+PackageFolder=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Installation\Subs
+ProjectFolder=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Source
+ServerSideCab=
+File1=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Installation\Subs\setup.exe
+File2=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Installation\Subs\Setup.Lst
+File3=G:\01 - Work\02 - Ocean Project\05 - Production Planning\SFDC\Installation\Subs\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|RRC Prod|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Installation\RRC
+
+[Package|RRC Prod|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RRC Prod|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RRC Prod|Files Found]
+sfdc.ini=I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\RRC\sfdc.ini
+
+[Package|RRC Prod|Files Released]
+
+[Package|RRC Prod|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=
+
+[Package|RRC Prod|Out-of-Date Dependency Information]
+
+[Package|RRC Prod|Files Added]
+sfdc.ini=
+
+[Package|RRC Prod|Files Removed]
+
+[Package|RRC Prod|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\rraes_sfd.exe=Yes
+I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\RRC\sfdc.ini=Yes
+
+[Package|RRC Prod|Configure Registry Files]
+Applicable=No
+
+[Package|RRC Prod|Configure Remote Servers]
+Applicable=No
+
+[Package|RRC Prod|Install Locations]
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\SAPgui\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\UK\PROD\sfdc.ini=$(WinSysPath)
+J:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+J:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\RRC\sfdc.ini=$(WinSysPath)
+I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\rraes_sfd.exe=$(AppPath)
+I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\RRC\sfdc.ini=$(WinSysPath)
+
+[Package|RRC Prod|Configure Shared Files]
+Applicable=Yes
+V:\Ar&o\Directory Structure\B - IT Elements\A - System Definition\22 - External Applications\SFDC\12_v3.1.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+J:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\rraes_sfd.exe=No
+J:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\RRC\sfdc.ini=No
+I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source\rraes_sfd.exe=No
+
+[Package|RRC Prod|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|RRC Prod|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|RRC Prod|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|RRC Prod|Package]
+PackageFolder=i:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Installation\RRC
+ProjectFolder=I:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Source
+ServerSideCab=
+File1=i:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Installation\RRC\setup.exe
+File2=i:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Installation\RRC\Setup.Lst
+File3=i:\01 - Work Files\01 - Support\04 SFDC\16_v3.2.1\Installation\RRC\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HAESL ver3.3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Installation\HAESL
+
+[Package|HAESL ver3.3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HAESL ver3.3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HAESL ver3.3|Files Found]
+
+[Package|HAESL ver3.3|Files Released]
+
+[Package|HAESL ver3.3|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|HAESL ver3.3|Out-of-Date Dependency Information]
+
+[Package|HAESL ver3.3|Files Added]
+c:\program files\microsoft visual studio\vb98\sfdc v3.3.0\source\haesl\sfdc.ini=
+
+[Package|HAESL ver3.3|Files Removed]
+
+[Package|HAESL ver3.3|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\HAESL\sfdc.ini=Yes
+
+[Package|HAESL ver3.3|Configure Registry Files]
+Applicable=No
+
+[Package|HAESL ver3.3|Configure Remote Servers]
+Applicable=No
+
+[Package|HAESL ver3.3|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\HAESL\sfdc.ini=$(WinSysPath)
+
+[Package|HAESL ver3.3|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|HAESL ver3.3|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|HAESL ver3.3|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Installation\HAESL
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Installation\HAESL\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Installation\HAESL\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Installation\HAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|HAESL ver3.3|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|HAESL ver3.3|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|HAESL ver3.3.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Installation\HAESL
+
+[Package|HAESL ver3.3.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HAESL ver3.3.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HAESL ver3.3.1|Files Found]
+sfdc.ini=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\HAESL\sfdc.ini
+
+[Package|HAESL ver3.3.1|Files Released]
+
+[Package|HAESL ver3.3.1|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|HAESL ver3.3.1|Out-of-Date Dependency Information]
+
+[Package|HAESL ver3.3.1|Files Added]
+sfdc.ini=
+
+[Package|HAESL ver3.3.1|Files Removed]
+
+[Package|HAESL ver3.3.1|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\rraes_sfd.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\HAESL\sfdc.ini=Yes
+
+[Package|HAESL ver3.3.1|Configure Registry Files]
+Applicable=No
+
+[Package|HAESL ver3.3.1|Configure Remote Servers]
+Applicable=No
+
+[Package|HAESL ver3.3.1|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\HAESL\sfdc.ini=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\rraes_sfd.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\HAESL\sfdc.ini=$(WinSysPath)
+
+[Package|HAESL ver3.3.1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\rraes_sfd.exe=No
+
+[Package|HAESL ver3.3.1|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|HAESL ver3.3.1|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|HAESL ver3.3.1|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HAESL ver3.3.1|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Installation\HAESL
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Installation\HAESL\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Installation\HAESL\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Installation\HAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HAESL ver3.3.2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\SFDC\18_ v3.3.2\Installation\HAESL
+
+[Package|HAESL ver3.3.2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HAESL ver3.3.2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HAESL ver3.3.2|Files Found]
+sfdc.ini=G:\SFDC\18_ v3.3.2\Source\HAESL\sfdc.ini
+
+[Package|HAESL ver3.3.2|Files Released]
+
+[Package|HAESL ver3.3.2|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|HAESL ver3.3.2|Out-of-Date Dependency Information]
+
+[Package|HAESL ver3.3.2|Files Added]
+sfdc.ini=
+
+[Package|HAESL ver3.3.2|Files Removed]
+
+[Package|HAESL ver3.3.2|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC\18_ v3.3.2\Source\rraes_sfd.exe=Yes
+G:\SFDC\18_ v3.3.2\Source\HAESL\sfdc.ini=Yes
+
+[Package|HAESL ver3.3.2|Configure Registry Files]
+Applicable=No
+
+[Package|HAESL ver3.3.2|Configure Remote Servers]
+Applicable=No
+
+[Package|HAESL ver3.3.2|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\HAESL\sfdc.ini=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\rraes_sfd.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\HAESL\sfdc.ini=$(WinSysPath)
+G:\SFDC\18_ v3.3.2\Source\rraes_sfd.exe=$(AppPath)
+G:\SFDC\18_ v3.3.2\Source\HAESL\sfdc.ini=$(WinSysPath)
+
+[Package|HAESL ver3.3.2|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.0\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\SFDC v3.3.1\Source\rraes_sfd.exe=No
+G:\SFDC\18_ v3.3.2\Source\rraes_sfd.exe=No
+
+[Package|HAESL ver3.3.2|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|HAESL ver3.3.2|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|HAESL ver3.3.2|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|HAESL ver3.3.2|Package]
+PackageFolder=g:\SFDC\18_ v3.3.2\Installation\HAESL
+ProjectFolder=G:\SFDC\18_ v3.3.2\Source
+ServerSideCab=
+File1=g:\SFDC\18_ v3.3.2\Installation\HAESL\setup.exe
+File2=g:\SFDC\18_ v3.3.2\Installation\HAESL\Setup.Lst
+File3=g:\SFDC\18_ v3.3.2\Installation\HAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SAESL v3.2.2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.3.2\Installation\SAESL
+
+[Package|SAESL v3.2.2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SAESL v3.2.2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SAESL v3.2.2|Files Found]
+
+[Package|SAESL v3.2.2|Files Released]
+
+[Package|SAESL v3.2.2|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|SAESL v3.2.2|Out-of-Date Dependency Information]
+
+[Package|SAESL v3.2.2|Files Added]
+G:\SFDC v3.3.2\Source\SAESL\sfdc.ini=
+
+[Package|SAESL v3.2.2|Files Removed]
+
+[Package|SAESL v3.2.2|Files In Project]
+G:\SFDC v3.3.2\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.3.2\Source\SAESL\sfdc.ini=Yes
+
+[Package|SAESL v3.2.2|Configure Registry Files]
+Applicable=No
+
+[Package|SAESL v3.2.2|Configure Remote Servers]
+Applicable=No
+
+[Package|SAESL v3.2.2|Install Locations]
+G:\SFDC v3.3.2\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.3.2\Source\SAESL\sfdc.ini=$(WinSysPath)
+
+[Package|SAESL v3.2.2|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.3.2\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|SAESL v3.2.2|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|SAESL v3.2.2|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SAESL v3.2.2|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SAESL v3.2.2|Package]
+PackageFolder=G:\SFDC v3.3.2\Installation\SAESL
+ProjectFolder=G:\SFDC v3.3.2\Source
+ServerSideCab=
+File1=G:\SFDC v3.3.2\Installation\SAESL\setup.exe
+File2=G:\SFDC v3.3.2\Installation\SAESL\Setup.Lst
+File3=G:\SFDC v3.3.2\Installation\SAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SFDC ver 3.3.3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.3.3\Installation\SAESL
+
+[Package|SFDC ver 3.3.3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SFDC ver 3.3.3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SFDC ver 3.3.3|Files Found]
+
+[Package|SFDC ver 3.3.3|Files Released]
+
+[Package|SFDC ver 3.3.3|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|SFDC ver 3.3.3|Out-of-Date Dependency Information]
+
+[Package|SFDC ver 3.3.3|Files Added]
+G:\SFDC v3.3.3\Source\SAESL\sfdc.ini=
+
+[Package|SFDC ver 3.3.3|Files Removed]
+
+[Package|SFDC ver 3.3.3|Files In Project]
+G:\SFDC v3.3.3\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.3.3\Source\SAESL\sfdc.ini=Yes
+
+[Package|SFDC ver 3.3.3|Configure Registry Files]
+Applicable=No
+
+[Package|SFDC ver 3.3.3|Configure Remote Servers]
+Applicable=No
+
+[Package|SFDC ver 3.3.3|Install Locations]
+G:\SFDC v3.3.3\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.3.3\Source\SAESL\sfdc.ini=$(WinSysPath)
+
+[Package|SFDC ver 3.3.3|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.3.3\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|SFDC ver 3.3.3|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|SFDC ver 3.3.3|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SFDC ver 3.3.3|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SFDC ver 3.3.3|Package]
+PackageFolder=G:\SFDC v3.3.3\Installation\SAESL
+ProjectFolder=G:\SFDC v3.3.3\Source
+ServerSideCab=
+File1=G:\SFDC v3.3.3\Installation\SAESL\setup.exe
+File2=G:\SFDC v3.3.3\Installation\SAESL\Setup.Lst
+File3=G:\SFDC v3.3.3\Installation\SAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 10|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.3.6\Installation\SAESL
+
+[Package|Standard Setup Package 10|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 10|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 10|Files Found]
+
+[Package|Standard Setup Package 10|Files Released]
+
+[Package|Standard Setup Package 10|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 10|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 10|Files Added]
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=
+
+[Package|Standard Setup Package 10|Files Removed]
+
+[Package|Standard Setup Package 10|Files In Project]
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=Yes
+
+[Package|Standard Setup Package 10|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 10|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 10|Install Locations]
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 10|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 10|Distribution]
+Type=single
+Size=
+Title=SFDC v3.3.6
+
+[Package|Standard Setup Package 10|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 10|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 10|Package]
+PackageFolder=G:\SFDC v3.3.6\Installation\SAESL
+ProjectFolder=G:\SFDC v3.3.6\Source
+ServerSideCab=
+File1=G:\SFDC v3.3.6\Installation\SAESL\setup.exe
+File2=G:\SFDC v3.3.6\Installation\SAESL\Setup.Lst
+File3=G:\SFDC v3.3.6\Installation\SAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 11|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.3.6\Installation\SAESL
+
+[Package|Standard Setup Package 11|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 11|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 11|Files Found]
+
+[Package|Standard Setup Package 11|Files Released]
+
+[Package|Standard Setup Package 11|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Standard Setup Package 11|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 11|Files Added]
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=
+
+[Package|Standard Setup Package 11|Files Removed]
+
+[Package|Standard Setup Package 11|Files In Project]
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=Yes
+
+[Package|Standard Setup Package 11|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 11|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 11|Install Locations]
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.3.6\Source\SAESL\sfdc.ini=$(WinSysPath)
+
+[Package|Standard Setup Package 11|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.3.6\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Standard Setup Package 11|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|Standard Setup Package 11|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 11|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 11|Package]
+PackageFolder=G:\SFDC v3.3.6\Installation\SAESL
+ProjectFolder=G:\SFDC v3.3.6\Source
+ServerSideCab=
+File1=G:\SFDC v3.3.6\Installation\SAESL\setup.exe
+File2=G:\SFDC v3.3.6\Installation\SAESL\Setup.Lst
+File3=G:\SFDC v3.3.6\Installation\SAESL\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Ver3.3.8|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\SFDC v3.3.8\Installation
+
+[Package|Ver3.3.8|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Ver3.3.8|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Ver3.3.8|Files Found]
+
+[Package|Ver3.3.8|Files Released]
+
+[Package|Ver3.3.8|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|Ver3.3.8|Out-of-Date Dependency Information]
+
+[Package|Ver3.3.8|Files Added]
+G:\SFDC v3.3.8\Source\SAESL\sfdc.ini=
+
+[Package|Ver3.3.8|Files Removed]
+
+[Package|Ver3.3.8|Files In Project]
+G:\SFDC v3.3.8\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\SFDC v3.3.8\Source\SAESL\sfdc.ini=Yes
+
+[Package|Ver3.3.8|Configure Registry Files]
+Applicable=No
+
+[Package|Ver3.3.8|Configure Remote Servers]
+Applicable=No
+
+[Package|Ver3.3.8|Install Locations]
+G:\SFDC v3.3.8\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\SFDC v3.3.8\Source\SAESL\sfdc.ini=$(WinSysPath)
+
+[Package|Ver3.3.8|Configure Shared Files]
+Applicable=Yes
+G:\SFDC v3.3.8\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|Ver3.3.8|Distribution]
+Type=single
+Size=
+Title=SFDC ver3.3.8
+
+[Package|Ver3.3.8|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Ver3.3.8|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Ver3.3.8|Package]
+PackageFolder=G:\SFDC v3.3.8\Installation
+ProjectFolder=G:\SFDC v3.3.8\Source
+ServerSideCab=
+File1=G:\SFDC v3.3.8\Installation\setup.exe
+File2=G:\SFDC v3.3.8\Installation\Setup.Lst
+File3=G:\SFDC v3.3.8\Installation\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|UK Ver 3.3.9|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\SFDC v3.3.9\Installation\UK
+
+[Package|UK Ver 3.3.9|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UK Ver 3.3.9|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UK Ver 3.3.9|Files Found]
+
+[Package|UK Ver 3.3.9|Files Released]
+
+[Package|UK Ver 3.3.9|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|UK Ver 3.3.9|Out-of-Date Dependency Information]
+
+[Package|UK Ver 3.3.9|Files Added]
+D:\SFDC v3.3.9\Source\UK\SFDC.ini=
+
+[Package|UK Ver 3.3.9|Files Removed]
+
+[Package|UK Ver 3.3.9|Files In Project]
+D:\SFDC v3.3.9\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\SFDC v3.3.9\Source\UK\SFDC.ini=Yes
+
+[Package|UK Ver 3.3.9|Configure Registry Files]
+Applicable=No
+
+[Package|UK Ver 3.3.9|Configure Remote Servers]
+Applicable=No
+
+[Package|UK Ver 3.3.9|Install Locations]
+D:\SFDC v3.3.9\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\SFDC v3.3.9\Source\UK\SFDC.ini=$(WinSysPath)
+
+[Package|UK Ver 3.3.9|Configure Shared Files]
+Applicable=Yes
+D:\SFDC v3.3.9\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|UK Ver 3.3.9|Distribution]
+Type=single
+Size=
+Title=SFDC Ver 3.3.9
+
+[Package|UK Ver 3.3.9|IconGroups]
+Group0=SFDC Ver 3.3.9
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|UK Ver 3.3.9|SFDC Ver 3.3.9]
+Icon1=rraes_sfd.exe
+Title1=SFDC Ver 3.3.9
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|UK Ver 3.3.9|Package]
+PackageFolder=D:\SFDC v3.3.9\Installation\UK
+ProjectFolder=D:\SFDC v3.3.9\Source
+ServerSideCab=
+File1=D:\SFDC v3.3.9\Installation\UK\setup.exe
+File2=D:\SFDC v3.3.9\Installation\UK\Setup.Lst
+File3=D:\SFDC v3.3.9\Installation\UK\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SFDC ver3.3.10 UK|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\SFDC v3.3.10\Installation\UK
+
+[Package|SFDC ver3.3.10 UK|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SFDC ver3.3.10 UK|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SFDC ver3.3.10 UK|Files Found]
+
+[Package|SFDC ver3.3.10 UK|Files Released]
+
+[Package|SFDC ver3.3.10 UK|Missing Dependency Information]
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=
+C:\WINNT\system32\wdtfuncs.ocx=
+C:\WINNT\system32\Blowfish.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+
+[Package|SFDC ver3.3.10 UK|Out-of-Date Dependency Information]
+
+[Package|SFDC ver3.3.10 UK|Files Added]
+D:\SFDC v3.3.10\Source\UK\SFDC.ini=
+
+[Package|SFDC ver3.3.10 UK|Files Removed]
+
+[Package|SFDC ver3.3.10 UK|Files In Project]
+D:\SFDC v3.3.10\Source\rraes_sfd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\Blowfish.dll=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\WINNT\system32\wdtfuncs.ocx=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\SFDC v3.3.10\Source\UK\SFDC.ini=Yes
+
+[Package|SFDC ver3.3.10 UK|Configure Registry Files]
+Applicable=No
+
+[Package|SFDC ver3.3.10 UK|Configure Remote Servers]
+Applicable=No
+
+[Package|SFDC ver3.3.10 UK|Install Locations]
+D:\SFDC v3.3.10\Source\rraes_sfd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\Blowfish.dll=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\wdtfuncs.ocx=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=$(AppPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\SFDC v3.3.10\Source\UK\SFDC.ini=$(WinSysPath)
+
+[Package|SFDC ver3.3.10 UK|Configure Shared Files]
+Applicable=Yes
+D:\SFDC v3.3.10\Source\rraes_sfd.exe=No
+C:\Program Files\SAP620\FrontEnd\Controls\WDTAOCX.OCX=Yes
+C:\Program Files\SAP620\FrontEnd\Controls\wdtlog.OCX=Yes
+
+[Package|SFDC ver3.3.10 UK|Distribution]
+Type=single
+Size=
+Title=SFDC
+
+[Package|SFDC ver3.3.10 UK|IconGroups]
+Group0=SFDC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SFDC ver3.3.10 UK|SFDC]
+Icon1=rraes_sfd.exe
+Title1=SFDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SFDC ver3.3.10 UK|Package]
+PackageFolder=D:\SFDC v3.3.10\Installation\UK
+ProjectFolder=D:\SFDC v3.3.10\Source
+ServerSideCab=
+File1=D:\SFDC v3.3.10\Installation\UK\setup.exe
+File2=D:\SFDC v3.3.10\Installation\UK\Setup.Lst
+File3=D:\SFDC v3.3.10\Installation\UK\rraes_sfd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

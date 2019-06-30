@@ -1,0 +1,681 @@
+
+**** ERROR file opened at 20080918 141817 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1764 ======>      Please logon with a dialog user                                                 
+T:1764 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1764 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1764 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Sep 18 14:18:19 2008
+T:1764 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080918 142556 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2072 ======>      Please logon with a dialog user                                                 
+T:2072 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2072 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:2072 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Sep 18 14:25:59 2008
+T:2072 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080918 143015 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1912 ======>      Please logon with a dialog user                                                 
+T:1912 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1912 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1912 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Sep 18 14:30:17 2008
+T:1912 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080922 075039 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1496 ======> User SFDC has no RFC authorization for function group SYST .
+T:1496 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Mon Sep 22 07:50:41 2008
+T:1496 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080922 083315 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1008 ======> User SFDC has no RFC authorization for function group SYST .
+T:1008 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Mon Sep 22 08:33:18 2008
+T:1008 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080922 083642 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1892 ======>      Please logon with a dialog user                                                 
+T:1892 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1892 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1892 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Mon Sep 22 08:36:46 2008
+T:1892 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080922 083730 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:800 ======>      Please logon with a dialog user                                                 
+T:800 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:800 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:800 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Mon Sep 22 08:37:31 2008
+T:800 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080925 151703 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2316 ======> Name or password is incorrect. Please re-enter
+T:2316 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Sep 25 15:17:05 2008
+T:2316 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20080926 084221 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2288 ======> Name or password is incorrect. Please re-enter
+T:2288 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Sep 26 08:42:23 2008
+T:2288 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120341 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2016 ======> Name or password is incorrect. Please re-enter
+T:2016 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:03:45 2008
+T:2016 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120351 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2324 ======> User not authorized. Session terminated
+T:2324 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:03:52 2008
+T:2324 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120358 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2196 ======> Name or password is incorrect. Please re-enter
+T:2196 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:04:00 2008
+T:2196 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120405 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2016 ======> Name or password is incorrect. Please re-enter
+T:2016 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:04:07 2008
+T:2016 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120412 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:356 ======> User not authorized. Session terminated
+T:356 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:04:14 2008
+T:356 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 120430 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2232 ======> User is locked. Please notify the person responsible
+T:2232 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 12:04:32 2008
+T:2232 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 131048 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1632 ======>      Please logon with a dialog user                                                 
+T:1632 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1632 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1632 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:10:50 2008
+T:1632 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 131057 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:10:59 2008
+T:2408 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 131342 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2320 ======>      Please logon with a dialog user                                                 
+T:2320 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2320 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:2320 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:13:47 2008
+T:2320 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 132003 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1752 ======>      Please logon with a dialog user                                                 
+T:1752 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1752 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1752 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:20:06 2008
+T:1752 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081001 132838 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1752 ======>      Please logon with a dialog user                                                 
+T:1752 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1752 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:1752 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:28:40 2008
+T:1752 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+>TS> Wed Oct 01 13:29:01 2008
+T:1752 ======>      Please logon with a dialog user                                                 
+T:1752 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1752 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1752 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 01 13:29:05 2008
+T:1752 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 095833 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1744 ======> Name or password is incorrect. Please re-enter
+T:1744 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 09:58:35 2008
+T:1744 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 101045 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1744 ======> Name or password is incorrect. Please re-enter
+T:1744 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 10:10:58 2008
+T:1744 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 101220 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1744 ======> User not authorized. Session terminated
+T:1744 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 10:15:22 2008
+T:1744 ======> Name or password is incorrect. Please re-enter
+T:1744 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 10:15:43 2008
+T:1744 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 133714 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1744 ======> Unable to convert from code page '2022' to code page '1100'.
+T:1744 <* RfcReceive [9] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 13:37:37 2008
+T:1744 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+>TS> Fri Oct 03 13:37:48 2008
+T:1744 ======> Unable to convert from code page '1252' to code page '1100'.
+T:1744 <* RfcReceive [10] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 13:37:57 2008
+T:1744 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 141341 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1744 ======> User SFDC has no RFC authorization for function group SM02 .
+T:1744 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:1744 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:1744 <* RfcCall [2] : returns 6:RFC_CLOSED
+T:1744 <* RfcCall [2] : returns 6:RFC_CLOSED
+T:1744 Error RFCIO_ERROR_DEALLOCATED in abrfcio.c : 1354
+T:1744 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 14:14:51 2008
+T:1744 ======> User SFDC has no RFC authorization for function group SM02 .
+T:1744 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1744 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1744 <* RfcCall [3] : returns 6:RFC_CLOSED
+T:1744 <* RfcCall [3] : returns 6:RFC_CLOSED
+T:1744 Error RFCIO_ERROR_DEALLOCATED in abrfcio.c : 1354
+T:1744 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081003 145602 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:912 ======> Name or password is incorrect. Please re-enter
+T:912 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 14:56:29 2008
+T:912 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 145904 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:912 ======> Name or password is incorrect. Please re-enter
+T:912 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 14:59:12 2008
+T:912 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 152244 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1068 ======> Name or password is incorrect. Please re-enter
+T:1068 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 15:22:46 2008
+T:1068 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 152316 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1520 ======> Name or password is incorrect. Please re-enter
+T:1520 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 15:23:18 2008
+T:1520 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081003 152901 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:492 ======> User not authorized. Session terminated
+T:492 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Oct 03 15:29:03 2008
+T:492 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+
+**** ERROR file opened at 20081007 090221 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1460 ======> Name or password is incorrect. Please re-enter
+T:1460 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Oct 07 09:02:33 2008
+T:1460 <* RfcGetCodePagesInfo [4294967294] : returns 18:RFC_INVALID_HANDLE
+>TS> Tue Oct 07 09:04:50 2008
+T:1460 ======> Name or password is incorrect. Please re-enter
+T:1460 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081007 091745 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1460 ======> User not authorized. Session terminated
+T:1460 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Oct 07 09:18:00 2008
+T:1460 ======> Name or password is incorrect. Please re-enter
+T:1460 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081007 091953 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:340 ======> Name or password is incorrect. Please re-enter
+T:340 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081007 132034 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2200 ======> Name or password is incorrect. Please re-enter
+T:2200 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Oct 07 13:20:54 2008
+T:2200 ======> Name or password is incorrect. Please re-enter
+T:2200 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 093448 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1232 ======> Name or password is incorrect. Please re-enter
+T:1232 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 093712 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1232 ======> Name or password is incorrect. Please re-enter
+T:1232 <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 095223 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1232 ======> User not authorized. Session terminated
+T:1232 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 09:54:05 2008
+T:1232 ======> Name or password is incorrect. Please re-enter
+T:1232 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 134942 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 13:50:43 2008
+T:1740 ======> User not authorized. Session terminated
+T:1740 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 142852 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 143412 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 14:36:17 2008
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 14:36:38 2008
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 14:37:12 2008
+T:1740 ======> User not authorized. Session terminated
+T:1740 <* RfcReceive [6] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 14:37:36 2008
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [7] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 145719 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 150456 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> User not authorized. Session terminated
+T:1740 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 150843 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======> Name or password is incorrect. Please re-enter
+T:1740 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 152954 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 15:31:38 2008
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 153902 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 154518 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 154804 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 155208 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 15:55:14 2008
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 15:56:09 2008
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 15:56:29 2008
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [5] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 15:58:22 2008
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [6] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [6] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 160413 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1740 ======>      Please logon with a dialog user                                                 
+T:1740 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1740 <* RfcReceive [7] : returns 3:RFC_SYS_EXCEPTION
+T:1740 <* RfcCallReceive [7] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081008 160752 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:1448 ======> Name or password is incorrect. Please re-enter
+T:1448 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 16:08:54 2008
+T:1448 ======>      Please logon with a dialog user                                                 
+T:1448 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1448 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1448 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed Oct 08 16:13:35 2008
+T:1448 ======>      Please logon with a dialog user                                                 
+T:1448 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:1448 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:1448 <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 075359 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2300 ======>      Please logon with a dialog user                                                 
+T:2300 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2300 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:2300 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 080006 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2300 ======>      Please logon with a dialog user                                                 
+T:2300 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2300 <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:2300 <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 091622 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2300 ======>      Please logon with a dialog user                                                 
+T:2300 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2300 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:2300 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 092212 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2464 ======> Name or password is incorrect. Please re-enter
+T:2464 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 092337 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2464 ======>      Please logon with a dialog user                                                 
+T:2464 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2464 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:2464 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 095207 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:608 ======>      Please logon with a dialog user                                                 
+T:608 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:608 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:608 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 095433 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 095656 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Oct 09 09:57:28 2008
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu Oct 09 10:05:31 2008
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [5] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20081009 100640 GMT Daylight Ti, SAP-REL 620,0,1081 RFC-VER 3 598487 MT-SL
+T:2408 ======>      Please logon with a dialog user                                                 
+T:2408 Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1407
+T:2408 <* RfcReceive [6] : returns 3:RFC_SYS_EXCEPTION
+T:2408 <* RfcCallReceive [6] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180328 122039 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:25396 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 64228181 not found
+TIME        Wed Mar 28 12:20:39 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     188603
+
+T:25396 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:25396 Error in program 'vb6': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:25396 Error in program 'vb6': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180328 145959 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:25396 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 68313977 not found
+TIME        Wed Mar 28 15:00:00 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     949
+
+T:25396 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:25396 Error in program 'vb6': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:25396 Error in program 'vb6': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180328 152235 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:25396 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 69257500 not found
+TIME        Wed Mar 28 15:22:35 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     1306
+
+T:25396 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:25396 Error in program 'vb6': <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:25396 Error in program 'vb6': <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180328 152809 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:25396 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 70305492 not found
+TIME        Wed Mar 28 15:28:09 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     1385
+
+T:25396 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:25396 Error in program 'vb6': <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+T:25396 Error in program 'vb6': <* RfcCallReceive [5] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180508 140047 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:34532 Error in program 'vb6': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=10.111.4.74, GWSERV=3301, SYSNR=01
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       timeout occured
+TIME        Tue May 08 14:00:47 2018
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -5
+MODULE      gwxx.c
+LINE        646
+DETAIL      timeout 60000 msecs
+SYSTEM CALL GwRead
+COUNTER     1
+
+T:34532 Error in program 'vb6': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=SFDC CLIENT=800 LANG=E PASSWD=******* R3NAME=PRD GROUP=SFD_WORKBOOK MSHOST=10.111.4.53 ICCE=1 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20180510 140907 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:37788 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 79959681 not found
+TIME        Thu May 10 14:09:07 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     6830
+
+T:37788 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:37788 Error in program 'vb6': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:37788 Error in program 'vb6': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180511 154910 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:11112 Error in program 'vb6': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:11112 Error in program 'vb6': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180514 141816 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:25656 Error in program 'vb6': <* RfcReceive [11] : returns 3:RFC_SYS_EXCEPTION
+T:25656 Error in program 'vb6': <* RfcCallReceive [11] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180523 170140 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:21456 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 12451080 not found
+TIME        Wed May 23 17:01:40 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     17605
+
+T:21456 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:21456 Error in program 'vb6': <* RfcReceive [7] : returns 3:RFC_SYS_EXCEPTION
+T:21456 Error in program 'vb6': <* RfcCallReceive [7] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180523 171712 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:21456 Error in program 'vb6': <* RfcReceive [8] : returns 3:RFC_SYS_EXCEPTION
+T:21456 Error in program 'vb6': <* RfcCallReceive [8] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180525 122410 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:43732 Error in program 'vb6': ======> Connect to message server failed
+Connect_PM  MSHOST=10.111.4.53, R3NAME=DEC, GROUP=SFD_WORKBOOK
+
+LOCATION    CPIC (TCP/IP) on local host GBDOXPR-CXA003
+ERROR       service '?' unknown
+TIME        Fri May 25 12:24:10 2018
+RELEASE     730
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+DETAIL      NiErrSet
+COUNTER     2
+
+T:43732 Error in program 'vb6': ======> 
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   USER=SFDC CLIENT=600 LANG=E PASSWD=******* R3NAME=DEC GROUP=SFD_WORKBOOK MSHOST=10.111.4.53 ICCE=1 GETSSO2=1 PCS=1 
+<<< RfcOpenEx failed
+
+
+
+**** ERROR file opened at 20180611 170820 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:118240 Error in program 'vb6': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:118240 Error in program 'vb6': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180611 171634 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:118240 Error in program 'vb6': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:118240 Error in program 'vb6': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180612 095031 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:38900 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 04164699 not found
+TIME        Tue Jun 12 09:50:32 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     6766
+
+T:38900 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:38900 Error in program 'vb6': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:38900 Error in program 'vb6': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180612 103328 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:38900 Error in program 'vb6': <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+T:38900 Error in program 'vb6': <* RfcCallReceive [5] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180627 140118 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:101172 Error in program 'vb6': <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:101172 Error in program 'vb6': <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180627 140819 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:138584 Error in program 'vb6': ======> CPIC-CALL: 'CMRCV : rc=19
+
+LOCATION    SAP-Gateway on host wyusp14nv / sapgw01
+ERROR       Conversation 15864881 not found
+TIME        Wed Jun 27 14:08:19 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          728
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxconn.c
+LINE        937
+COUNTER     16107
+
+>TS> Wed Jun 27 14:08:20 2018
+T:138584 Error in program 'vb6': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1973
+T:138584 Error in program 'vb6': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:138584 Error in program 'vb6': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180724 161046 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:15040 Error in program 'rraes_sfd': ======> Exception condition "START_OP_NOT_FOUND" triggered
+T:15040 Error in program 'rraes_sfd': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:15040 Error in program 'rraes_sfd': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180724 161122 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:24404 Error in program 'rraes_sfd': ======> Exception condition "START_OP_NOT_FOUND" triggered
+T:24404 Error in program 'rraes_sfd': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:24404 Error in program 'rraes_sfd': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180724 161239 GMT Daylight Time, SAP-REL 730,0,614 RFC-VER 3 1496147 MT-SL
+T:24404 Error in program 'rraes_sfd': ======> Exception condition "START_OP_NOT_FOUND" triggered
+T:24404 Error in program 'rraes_sfd': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:24404 Error in program 'rraes_sfd': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
